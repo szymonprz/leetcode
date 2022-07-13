@@ -2,6 +2,7 @@ package palindromelinkedlist
 
 data class ListNode(var `val`: Int, var next: ListNode? = null)
 
+// #linkedlist reverselinkedlist #middlelinkedlist
 class PalindromLinkedList {
     fun isPalindrome(head: ListNode?): Boolean {
         val mid = findMid(head)
